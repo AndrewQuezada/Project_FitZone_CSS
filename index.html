@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porject 1</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: grey;
+
+    }
+    .container {
+        /*this is the the shape and layout*/
+        display: flex;
+        border-radius: 30px;
+        width: 300px;
+        height: 700px;
+        border: 1px solid #33333300;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-left: 650px;
+        margin-top: 30px;  
+        box-shadow: 3px 3px 3px black;
+    }
+    .items {
+        width: 250px;
+        height: 60px;
+        background-color: rgb(0, 82, 11);
+        color: white;
+        display: flex;
+        margin: 5px;
+        border-radius: 8px;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 3px 3px 3px grey;
+    }
+    .items1 {
+        width: 250px;
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+        background: linear-gradient(to right, #00a2ff, #001b73);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        border-radius: 8px;
+        justify-content: center;
+        margin-top: 10px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    .monthly {
+        font-size: 20px;
+    }
+    .monthly2 {
+        font-size: 50px;
+        color: #ffc0cb;
+        text-shadow: 3px 3px 3px grey;
+    }
+    .monthly3 {
+        font-size: 15px;
+        color: white;
+        text-shadow: 3px 3px 3px grey;
+    }
+
+    .test {
+        display: flex;
+        width: inherit;
+        height: 140px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        background-color: #ff0000;
+        color: white;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        text-shadow: 3px 3px 3px grey;
+        padding: 10px;
+    }
+        
+    .into {
+        font-size: 40px;
+    }
+    .into3 {
+        width: 35px;
+        height: 35px;
+        background-color: rgb(192, 192, 0);
+        box-shadow: 0px 0px 7px yellow;
+        display: flex;
+        margin: 5px;
+        border-radius: 100px;
+        
+    }
+    .into2 {
+        font-size: 20px;
+        
+    }
+
+    .test2 {
+        width: inherit;
+        height: 120px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background-color: rgb(140, 0, 140);
+        color: white;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        text-shadow: 3px 3px 3px grey;
+    
+    }
+    .info {
+        font-size: 20px;
+    }
+    .info2 {
+        font-size: 10px;
+    }
+    .newtest {
+        /*This is for the white background*/
+        display: flex;
+        width: 300px;
+        height: 600px;
+        background-color: white;
+        align-items: center;
+        flex-direction: column;
+    }
+    .weights {
+        font-size: 20px;
+    }
+    .weights2 {
+        font-size: 10px;
+    }
+    .programs {
+        font-size: 25px;
+        padding: 20px;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <header class="test"> <!--Header, it has the title, FitZone, Welcome fitness, and 💪-->
+            <h2 class="into">FitZone</h2>
+            <h2 class="into2"> Welcome fitness</h2>
+            <h2 class="into3">💪</h2>
+        </header>
+        <section class="newtest"> <!--THis was made for the background color white-->
+            <h2 class="programs"> Traning Programs</h2>
+            <div class="items">
+               <h2 class="weights"> Weight Training </h2>
+               <h2 class="weights2">Lift some weights</h2>
+            </div>
+            <div class="items">
+                <h2 class="weights">Cardio Classes</h2>
+                <h2 class="weights2">Runing and high-enery work outs! </h2>
+            </div>
+            <div class="items">
+                <h2 class="weights"> Personal Training</h2>
+                <h2 class="weights2">A person that can help you train. </h2>
+            </div>
+            <div class="items">
+                <h2 class="weights"> Yoga</h2>
+                <h2 class="weights2"> Flexibility and mindfullness</h2>
+            </div>
+                <div class="items1">
+                    <h2 class="monthly"> Monthly Membership</h2>
+                    <h2 class="monthly2"> $39</h2>
+                    <h2 class="monthly3"> 24/7</h2>
+                </div>
+        </section>
+        <footer class="test2"> <!--The end card-->
+            <div class="info"> Vist Our Gym</div>
+            <div class="info2"> 123 street</div>
+
+        </footer>    
+    </div>
+</body>
+</html>
